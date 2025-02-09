@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase development: forgetting to unsubscribe from listeners.  The `bug.js` file shows the incorrect code, while `bugSolution.js` provides the corrected version with proper unsubscription handling.  This is especially crucial in React components to prevent memory leaks.
